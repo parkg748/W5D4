@@ -1,0 +1,10 @@
+/* PHASE 2: Notifications */
+.notification {
+  position: relative;
+}
+
+.notification-list:hover {
+  position: absolute;
+  color: black;
+  font-size: 14px;
+}

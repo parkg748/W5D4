@@ -1,0 +1,39 @@
+/* PHASE 1: Header */
+.header {
+  display: flex;
+  background-color: red;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.header-nav {
+  width: 900px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.header-logo {
+  float: left;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-right: 1px solid #ccc;
+}
+
+.header-logo:hover {
+  background-color: black;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding: 10px 20px;
+  border-left: 1px solid #ccc;
+}
+
+.header-list li:hover {
+  background-color: black;
+}
